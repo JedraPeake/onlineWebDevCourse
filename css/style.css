@@ -1,0 +1,77 @@
+body{
+    background-color:grey;
+    color:#333;
+}
+h1{
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p{
+    font-size:18px;
+    font-style: italic;
+}
+
+/*Style for id_class.html*/
+body#idClassPage{
+    background-color: white;
+}
+
+#main-title{
+    color:fc3;
+    background: #353535;
+    padding:10px;
+    margin:20px;
+    font-size:18px;
+}
+
+.sectionHeader{
+    color:olive;
+    border: solid 1px pink;
+    padding: 40px 20px 10px;
+    text-align:center;
+    font-size: 1em;
+}
+
+/*Style for descendant.html*/
+
+#mainContainer{
+    width:960px;
+    margin: 0 auto;
+}
+
+.primary-box{
+    background-color: white;
+    border: :solid 10px #333;
+    padding:20px;
+}
+
+.secondary-box{
+    background-color:333;
+    color:#fff;
+    padding:10px;
+}
+
+.secondary-box p{
+    font-size:12px;
+    font-style: normal;
+}
+
+.secondary-box p em{
+    color:#fc3fc3;
+}
+
+/*Style for grouping.html*/
+.primary-box, .secondary-box{
+    margin:30px 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    border-bottom:solid 3px red;
+    padding:0 0 10px;
+}
+
+.inside-box{
+    border:solid 1px black;
+}
